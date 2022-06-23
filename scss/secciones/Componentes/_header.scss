@@ -1,39 +1,40 @@
-.logo {
-  width: 100px;
-  margin: 16px 4px 1px 1px;
-  border-radius: 10px;
-  transform: translateX(30px);
-}
 
 header {
   grid-area: header;
   width: 100%;
   background-image: linear-gradient(to left, rgb(130, 149, 75), rgb(186, 189, 66), rgb(239, 211, 69), rgb(255, 239, 130));
-}
-
-.navegador {
-  display: flex;
-  justify-content: flex-end;
-  margin: 1px 2px 1px -6px;
-  width: 100%;
-  align-items: flex-end;
-  flex-direction: row;
-
-  li {
-    list-style: none;
-    padding: 10px;
-
-    a {
-      text-decoration: none;
-      color: rgb(0, 0, 0);
-      font-size: 20px;
-
-      &:hover {
-        background-color: rgba(154, 224, 148, 0.445);
+  .logo {
+    width: 100px;
+    margin: 16px 4px 1px 1px;
+    border-radius: 10px;
+    transform: translateX(30px);
+  }
+  .navegador {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1px 2px 1px -6px;
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: row;
+  
+    li {
+      list-style: none;
+      padding: 10px;
+  
+      a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+  
+        &:hover {
+          background-color: rgba(154, 224, 148, 0.445);
+        }
       }
     }
   }
 }
+
+
 @media (max-width: 955px){
   .navegador{
     li{

@@ -5,13 +5,14 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "header header  header header" "seccionPrimera seccionPrimera seccionPrimera seccionPrimera" "seccionSegunda seccionSegunda seccionSegunda seccionSegunda" "formulario formulario formulario formulario" "footer footer footer footer";
   border: solid 1px;
+  .imagenIndex {
+    height: 148px;
+    padding: 10px;
+    border-radius: 17px;
+    margin-top: 15px;
+  }
 }
-.imagenIndex {
-  height: 148px;
-  padding: 10px;
-  border-radius: 17px;
-  margin-top: 15px;
-}
+
 @media (max-width: 955px){
   .imagenIndex {
     height: 75px;

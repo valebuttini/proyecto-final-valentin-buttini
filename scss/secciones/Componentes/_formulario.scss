@@ -15,28 +15,29 @@
     margin: 3px 3px 10px 3px;
     border-radius: 10px;
   }
-}
-
-.cajaIndex {
-  width: 250px;
-  height: 70px;
-  transition: 0.8s;
-
-  &:hover {
-    height: 140px;
-    width: 200px;
-    padding: 10px;
-    background-color: rgba(78, 80, 82, 0.171);
+  .cajaIndex {
+    width: 250px;
+    height: 70px;
+    transition: 0.8s;
+  
+    &:hover {
+      height: 140px;
+      width: 200px;
+      padding: 10px;
+      background-color: rgba(78, 80, 82, 0.171);
+    }
+  }
+  
+  .botonIndex {
+    box-shadow: 0ch 2px black;
+    transition: all 0.5;
+  
+    &:hover {
+      transform: translateY(3px);
+    }
   }
 }
 
-.botonIndex {
-  box-shadow: 0ch 2px black;
-  transition: all 0.5;
 
-  &:hover {
-    transform: translateY(3px);
-  }
-}
 
   
