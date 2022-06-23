@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+}
+// variables
+@import './variables/colores.scss';
+@import './variables/extend';
+@import './variables/mixins';
+// secciones
+@import './secciones/index';
+@import './secciones/Biocosmetica';
+@import './secciones/Catalogo';
+@import './secciones/Contacto';
+@import './secciones/Preparados';
+
+// componentes """""""""""""""""""""""""""""""""""""""
+@import './secciones/componentes/header';
+@import './secciones/componentes/footer';
+@import './secciones/componentes/seccionPrimera';
+@import './secciones/componentes/seccionSegunda';
+@import './secciones/componentes/formulario';
+@import './secciones/Componentes/seccionBiocosmetica1';
+@import './secciones/Componentes/seccionBiocosmetica2';
+@import './secciones/Componentes/seccionCatalogo1';
+@import './secciones/Componentes/seccionCatalogo2';
+@import './secciones/Componentes/seccionPreparados1';
+@import './secciones/Componentes/seccionPreparados2';
+@import './secciones/Componentes/seccionPreparados3';
+@import './secciones/Componentes/seccionContacto';

@@ -1,0 +1,42 @@
+.formulario {
+  display: flex;
+  grid-area: formulario;
+  flex-direction: column;
+  align-items: center;
+  grid-area: formulario;
+  margin: 20px 1px 10px 1px;
+
+  h4 {
+    margin: 10px 1px 15px 1px;
+  }
+
+  input {
+    padding: 5px;
+    margin: 3px 3px 10px 3px;
+    border-radius: 10px;
+  }
+}
+
+.cajaIndex {
+  width: 250px;
+  height: 70px;
+  transition: 0.8s;
+
+  &:hover {
+    height: 140px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgba(78, 80, 82, 0.171);
+  }
+}
+
+.botonIndex {
+  box-shadow: 0ch 2px black;
+  transition: all 0.5;
+
+  &:hover {
+    transform: translateY(3px);
+  }
+}
+
+  

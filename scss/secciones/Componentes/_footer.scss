@@ -1,0 +1,32 @@
+.footer {
+  grid-area: footer;
+  background-image: linear-gradient(to left, rgb(130, 149, 75), rgb(186, 189, 66), rgb(239, 211, 69), rgb(255, 239, 130));
+}
+
+.redes {
+  display: inline-block;
+  margin-left: 568px;
+  margin-top: -27px;
+  padding: 20px;
+
+  i {
+    color: black;
+    padding: 15px;
+    font-size: 30px;
+  }
+
+  a i:hover {
+    transform: scale(2);
+  }
+}
+
+footer {
+  max-width: 100%;
+}
+@media (max-width: 955px){
+  .redes {
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: -27px;
+    padding: 20px}
+}

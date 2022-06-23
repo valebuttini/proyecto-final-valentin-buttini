@@ -1,0 +1,12 @@
+.gridContacto {
+    width: 99%;
+    margin: 1px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header header header" "sectionContacto sectionContacto sectionContacto" "footer footer footer";
+    border: solid 1px;
+  }
+  
+  .nav {
+    grid-area: nav;
+  }

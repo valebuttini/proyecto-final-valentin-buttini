@@ -1,0 +1,47 @@
+.seccionBiocosmetica2 {
+    display: flex;
+    grid-area: seccionBiocosmetica2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(250, 244, 183);
+    width: 100%;
+  }
+  
+  .imagenesBiocosmetica1 {
+    display: flex;
+  
+    img {
+      max-width: 280px;
+      max-height: 300px;
+      padding: 50px;
+    }
+  }
+  
+  .piePagina {
+    display: flex;
+    flex-direction: row-reverse;
+    p {
+      padding: 115px;
+      margin-top: -110px;
+      font-size: 20px;
+      color: black;
+      &:hover {  color: rgb(245, 88, 182);
+      }
+    }
+  }
+  
+  .imagenesBiocosmetica2 {
+    display: flex;
+    margin-top: -114px;
+  
+    img {
+      max-width: 280px;
+      max-height: 300px;
+      padding: 50px;
+    }
+  }
+  
+  .footer {
+    width: 100%;
+  }

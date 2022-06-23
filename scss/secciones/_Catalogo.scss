@@ -1,0 +1,16 @@
+.gridCatalogo {
+    width: 99%;
+    margin: 1px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas:
+      "header header header header"
+      "sectionCatalogo1 sectionCatalogo1 sectionCatalogo1 sectionCatalogo1"
+      "sectionCatalogo2 sectionCatalogo2 sectionCatalogo2 sectionCatalogo2"
+      "footer footer footer footer";
+    align-content: center;
+    border: solid 1px;
+  }
+  .nav {
+    grid-area: nav;
+  }

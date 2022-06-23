@@ -1,0 +1,15 @@
+.gridBiocosmetica {
+    display: grid;
+    max-width: 99%;
+    margin: 1px auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header header header header" "seccionBiocosmetica1 seccionBiocosmetica1 seccionBiocosmetica1 seccionBiocosmetica1" "seccionBiocosmetica2 seccionBiocosmetica2 seccionBiocosmetica2 seccionBiocosmetica2" "footer footer footer footer";
+    align-content: center;
+    justify-items: center;
+    border: solid 1px;
+  }
+  
+  .nav {
+    grid-area: nav;
+    width: 100%;
+  }

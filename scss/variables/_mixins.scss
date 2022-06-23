@@ -1,0 +1,5 @@
+@mixin estiloTitulos($coloLetra, $fuenteLetra){
+    color: $coloLetra;
+    font-family: $fuenteLetra;
+    
+}

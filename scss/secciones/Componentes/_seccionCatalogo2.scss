@@ -1,0 +1,40 @@
+.sectionCatalogo2 {
+    grid-area: sectionCatalogo2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(250, 244, 183);
+  
+    img {
+      width: 260px;
+      height: 180px;
+      padding: 40px;
+      margin-left: -15px;
+  
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+  }
+  
+  .pieFoto {
+    display: flex;
+    flex-direction: row;
+  
+    p {
+      padding: 20px;
+      margin: 1px 1px 1px 42px;
+      font-size: 20px;
+      @include estiloTitulos(black, sans-serif)
+    }
+  
+    h4 {
+      padding: 20px;
+      margin: 1px 1px 1px 50px;
+      transition: all 0.8s;
+  
+      &:hover {
+        transform: scale(2);
+      }
+    }
+  }

@@ -1,0 +1,30 @@
+.sectionContacto {
+    grid-area: sectionContacto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 1px 1px 1px;
+    background-color: rgb(218, 229, 208);
+  }
+  
+  .primerFormulario {
+    display: flex;
+    margin-bottom: 20px;
+  
+    input {
+      background-color: rgb(249, 235, 200);
+    }
+  }
+  
+  .segundoFormulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    input {
+      background-color: rgb(249, 235, 200);
+    }
+  }

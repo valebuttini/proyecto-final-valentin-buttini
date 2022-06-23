@@ -1,0 +1,12 @@
+.gridPreparados {
+    width: 99%;
+    margin: 1px auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header header header header" "sectionPreparados1 sectionPreparados1 sectionPreparados1 sectionPreparados1" "sectionPreparados2 sectionPreparados2 sectionPreparados2 sectionPreparados2" "sectionPreparados3 sectionPreparados3 sectionPreparados3 sectionPreparados3" "foooter foooter foooter foooter";
+    border: solid 1px;
+    background-color: rgb(250, 244, 183);
+  }
+  
+  header, .nav {
+    width: 100%;
+  }
