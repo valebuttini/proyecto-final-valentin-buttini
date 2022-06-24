@@ -13,4 +13,9 @@
     .nav {
       grid-area: nav;
     }
+    @media (max-width: 955px){
+      .gridCatalogo {
+        max-width: 955px;
+      }
+    }
   }

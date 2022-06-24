@@ -4,7 +4,6 @@
     flex-direction: column;
     align-items: center;
     background-color: rgb(250, 244, 183);
-  
     img {
       padding: 40px;
       height: 180px;
@@ -14,24 +13,47 @@
         transform: scale(1.5);
       }
     }
-  }
-  
-  .rellenoCatalogo {
-    display: flex;
-  
-    p {
-      padding: 2px;
-      margin: -7px 52px 55px 0px;
-      font-size: 20px;
-    }
-  
-    h4 {
-      margin: -4px 66px 1px 2px;
-      padding: 2px;
-      transition: all 0.8s;
-  
-      &:hover {
-        transform: scale(2);
+    .rellenoCatalogo {
+      display: flex;
+    
+      p {
+        padding: 2px;
+        margin: -7px 52px 55px 0px;
+        font-size: 20px;
+      }
+    
+      h4 {
+        margin: -4px 66px 1px 2px;
+        padding: 2px;
+        transition: all 0.8s;
+    
+        &:hover {
+          transform: scale(2);
+        }
       }
     }
+    @media (max-width: 955px) {
+      .sectionCatalogo1 {
+        display: flex;
+      
+        img {
+          padding: 10px;
+          height: 100px;
+          margin-top: 50px;
+          margin-left: 21px;
+        }
+      }
+    
+      .rellenoCatalogo {
+        p {
+          padding: 2px;
+          margin: -7px 52px 55px 27px;
+          font-size: 13px;
+        }
+      
+        h4 {
+          display: none;
+        }
+      }
+    } 
   }
