@@ -20,6 +20,7 @@
         padding: 2px;
         margin: -7px 52px 55px 0px;
         font-size: 20px;
+        @include estiloTitulos(black, sans-serif)
       }
     
       h4 {
