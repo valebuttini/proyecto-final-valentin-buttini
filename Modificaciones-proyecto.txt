@@ -1,15 +1,20 @@
-Realice con saas el mixin, extend basico.
+Realice con saas el mixin, extend en seccion biocosmetica y catalogo.
 
-Con seo, realice una keywords en todos los html, con diferentes palabras cada uno.
 
-Tambien  seo, realice una descripcion en cada uno de los html.
+Con seo:
+
+Realice una keywords en todos los html, con diferentes palabras cada uno.
+
+Realice una descripcion en cada uno de los html.
 
 Agregue titulos detallados por seccion.
 
 Arme una carpeta que se llama paginas e introduje las otras 4 secciones.
 
+Puse una etiqueta b en los parrafos de catalogo
+
+Rearme el codigo de catalogo.
+
 Agregue el sitemap. 
 
-
 Revise que sea una estructura de un h1 y en cascada.
-

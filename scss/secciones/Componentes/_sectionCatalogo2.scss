@@ -1,0 +1,38 @@
+.sectionCatalogo2 {
+    grid-area: sectionCatalogo2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(250, 244, 183);
+    .card{
+      @extend %estiloCard;
+      img{
+        width: 15rem;
+        height: 15rem;
+      }
+      p{
+        margin-left: 8px;
+      }
+    }
+    }
+    @media (max-width: 955px){
+      .sectionCatalogo2 {
+        grid-area: sectionCatalogo2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(250, 244, 183);
+        .card{
+          img{
+            width: 15rem;
+            height: 15rem;
+          }
+          p{
+            margin-left: 8px;
+          }
+        }
+        }
+    }
+  
