@@ -1,8 +1,8 @@
 Realice con saas el mixin, extend basico.
 
-Con seo realice una keywords en todos los html, con diferentes palabras cada uno.
+Con seo, realice una keywords en todos los html, con diferentes palabras cada uno.
 
-Tambien  seo realice una descripcion en cada uno de los html.
+Tambien  seo, realice una descripcion en cada uno de los html.
 
 Agregue titulos detallados por seccion.
 
