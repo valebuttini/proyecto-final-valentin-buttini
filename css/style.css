@@ -5,10 +5,10 @@
   font-family: "Montserrat", sans-serif;
   font-size: 100%; }
 
-.seccionPrimera p, .seccionBiocosmetica1 p {
+.seccionPrimera p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
-.sectionCatalogo1 .card, .sectionCatalogo2 .card {
+.seccionBiocosmetica1 .card, .seccionBiocosmetica2 .card, .sectionCatalogo1 .card, .sectionCatalogo2 .card {
   padding-right: 0%;
   border-radius: #fcfdae;
   border: solid 0.1px;
@@ -224,51 +224,27 @@ header {
   align-items: center;
   justify-content: center;
   grid-area: seccionBiocosmetica1; }
-  .seccionBiocosmetica1 h2, .seccionBiocosmetica1 h3 {
-    margin-top: 18px;
-    margin-bottom: 10px;
-    font-size: 25px; }
-  .seccionBiocosmetica1 p {
-    max-width: 870px; }
+  .seccionBiocosmetica1 h1 {
+    margin-top: 10px;
+    font-size: 30px;
+    text-decoration: underline; }
+  .seccionBiocosmetica1 .card img {
+    width: 15rem;
+    height: 15rem; }
 
 .seccionBiocosmetica2 {
   display: flex;
   grid-area: seccionBiocosmetica2;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-evenly;
   background-color: #faf4b7;
-  width: 100%; }
-  .seccionBiocosmetica2 .imagenesBiocosmetica1 {
-    display: flex; }
-    .seccionBiocosmetica2 .imagenesBiocosmetica1 img {
-      max-width: 280px;
-      max-height: 300px;
-      padding: 50px; }
-  .seccionBiocosmetica2 .piePagina {
-    display: flex;
-    flex-direction: row-reverse; }
-    .seccionBiocosmetica2 .piePagina p {
-      padding: 115px;
-      margin-top: -110px;
-      font-size: 20px;
-      color: black; }
-      .seccionBiocosmetica2 .piePagina p:hover {
-        color: #f558b6; }
-  .seccionBiocosmetica2 .imagenesBiocosmetica2 {
-    display: flex;
-    margin-top: -114px; }
-    .seccionBiocosmetica2 .imagenesBiocosmetica2 img {
-      max-width: 280px;
-      max-height: 300px;
-      padding: 50px; }
-  @media (max-width: 955px) {
-    .seccionBiocosmetica2 .imagenesBiocosmetica1 {
-      display: none; }
-    .seccionBiocosmetica2 .imagenesBiocosmetica2 {
-      display: none; }
-    .seccionBiocosmetica2 .piePagina {
-      display: none; } }
+  width: 100%;
+  flex-wrap: wrap; }
+  .seccionBiocosmetica2 .card {
+    margin-top: 20px; }
+    .seccionBiocosmetica2 .card img {
+      width: 15rem;
+      height: 15rem; }
 
 .footer {
   width: 100%; }
@@ -420,3 +396,7 @@ header {
     align-items: center; }
     .sectionContacto .segundoFormulario input {
       background-color: #f9ebc8; }
+  .sectionContacto h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-decoration: underline; }

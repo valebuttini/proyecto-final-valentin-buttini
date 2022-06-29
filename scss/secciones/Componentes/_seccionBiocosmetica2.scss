@@ -1,53 +1,20 @@
 .seccionBiocosmetica2 {
-    display: flex;
-    grid-area: seccionBiocosmetica2;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(250, 244, 183);
-    width: 100%;
-    .imagenesBiocosmetica1 {
-      display: flex;
-      img {
-        max-width: 280px;
-        max-height: 300px;
-        padding: 50px;
+  display: flex;
+  grid-area: seccionBiocosmetica2;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #faf4b7;
+  width: 100%;
+  flex-wrap: wrap;
+    .card{
+      @extend %estiloCard;
+      margin-top: 20px;
+      img{
+        width: 15rem;
+        height: 15rem;
       }
     }
-    .piePagina {
-      display: flex;
-      flex-direction: row-reverse;
-      p {
-        padding: 115px;
-        margin-top: -110px;
-        font-size: 20px;
-        color: black;
-        &:hover {  color: rgb(245, 88, 182);
-        }
-      }
-    }
-    .imagenesBiocosmetica2 {
-      display: flex;
-      margin-top: -114px;
-      img {
-        max-width: 280px;
-        max-height: 300px;
-        padding: 50px;
-      }
-    }
-    @media (max-width: 955px){
-      .imagenesBiocosmetica1{
-        display: none;
-      }
-      .imagenesBiocosmetica2{
-        display: none;
-      }
-      .piePagina{
-        display: none;
-      }
-    }
-    
-  }
+    }    
   .footer {
     width: 100%;
   }
