@@ -9,11 +9,23 @@
       font-size: 30px;
       text-decoration: underline;
     }
+    p{
+      max-width: 600px;
+      @extend %estiloTexto
+    }
+    h2{
+      margin-top: 10px;
+      text-decoration: underline;
+      @extend %estiloTexto
+    }
+    h3{
+      margin-top: 10px;
+      text-decoration: underline;
+    }
     .card{
       @extend %estiloCard;
       img{
         width: 15rem;
-        height: 15rem;
       }
     }
   }

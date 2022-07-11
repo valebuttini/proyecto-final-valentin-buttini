@@ -6,12 +6,13 @@
   background-color: #faf4b7;
   width: 100%;
   flex-wrap: wrap;
+  min-height: 50vh;
     .card{
       @extend %estiloCard;
       margin-top: 20px;
+      @extend %estiloImagenes;
       img{
         width: 15rem;
-        height: 15rem;
       }
     }
     }    

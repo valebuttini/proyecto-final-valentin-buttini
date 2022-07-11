@@ -5,12 +5,14 @@
     align-items: center;
     justify-content: space-around;
     background-color: rgb(250, 244, 183);
+    min-height: 75vh;
     .card{
       @extend %estiloCard;
       img{
         width: 15rem;
         height: 15rem;
       }
+      @extend %estiloImagenes;
       p{
         margin-left: 8px;
       }

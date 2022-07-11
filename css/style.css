@@ -18,6 +18,13 @@
   min-width: 0;
   margin-top: 1px; }
 
+.seccionBiocosmetica1 p:hover, .seccionBiocosmetica1 h2:hover {
+  background-color: #82954b;
+  transform: scale(1.4); }
+
+.seccionBiocosmetica2 .card:hover, .sectionCatalogo1 .card:hover, .sectionCatalogo2 .card:hover {
+  transform: scale(1.1); }
+
 .gridPadre {
   width: 99%;
   margin: 1px auto;
@@ -30,12 +37,9 @@
     padding: 10px;
     border-radius: 17px;
     margin-top: 15px; }
-  @media (max-width: 955px) {
+  @media (max-width: 930px) {
     .gridPadre .imagenIndex {
-      height: 75px;
-      padding: 8px;
-      border-radius: 13px;
-      margin-top: 15px; } }
+      display: none; } }
 
 .gridBiocosmetica {
   display: grid;
@@ -83,12 +87,6 @@
   background-color: #faf4b7; }
   .gridPreparados header, .gridPreparados .nav {
     width: 100%; }
-  @media (max-width: 955px) {
-    .gridPreparados .sectionPreparados1 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 40px 175px -76px 194px; } }
 
 header {
   grid-area: header;
@@ -116,8 +114,13 @@ header {
         header .navegador li a:hover {
           background-color: rgba(154, 224, 148, 0.445); }
   @media (max-width: 955px) {
-    header .navegador li a {
-      font-size: 12px; } }
+    header .navegador {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      header .navegador li a {
+        font-size: 15px;
+        font-weight: bold; } }
 
 .footer {
   grid-area: footer;
@@ -196,7 +199,8 @@ header {
   flex-direction: column;
   align-items: center;
   grid-area: formulario;
-  margin: 20px 1px 10px 1px; }
+  margin: 20px 1px 10px 1px;
+  min-height: 50vh; }
   .formulario h4 {
     margin: 10px 1px 15px 1px; }
   .formulario input {
@@ -228,9 +232,16 @@ header {
     margin-top: 10px;
     font-size: 30px;
     text-decoration: underline; }
+  .seccionBiocosmetica1 p {
+    max-width: 600px; }
+  .seccionBiocosmetica1 h2 {
+    margin-top: 10px;
+    text-decoration: underline; }
+  .seccionBiocosmetica1 h3 {
+    margin-top: 10px;
+    text-decoration: underline; }
   .seccionBiocosmetica1 .card img {
-    width: 15rem;
-    height: 15rem; }
+    width: 15rem; }
 
 .seccionBiocosmetica2 {
   display: flex;
@@ -239,12 +250,12 @@ header {
   justify-content: space-evenly;
   background-color: #faf4b7;
   width: 100%;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  min-height: 50vh; }
   .seccionBiocosmetica2 .card {
     margin-top: 20px; }
     .seccionBiocosmetica2 .card img {
-      width: 15rem;
-      height: 15rem; }
+      width: 15rem; }
 
 .footer {
   width: 100%; }
@@ -282,7 +293,8 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: #faf4b7; }
+  background-color: #faf4b7;
+  min-height: 75vh; }
   .sectionCatalogo2 .card img {
     width: 15rem;
     height: 15rem; }
@@ -320,29 +332,21 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 26px;
-  margin: 1px 2px 1px -63px;
+  padding: 20px;
+  margin: 1px 2px 2px -63px;
   width: 100%; }
   .sectionPreparados2 .modificadorImagenes {
-    width: 300px;
+    width: 250px;
     height: 180px;
     padding: 15px;
     margin-top: 50px; }
-  @media (max-width: 955px) {
-    .sectionPreparados2 .modificadorImagenes {
-      width: 125px;
-      height: 110px;
-      padding: 3px;
-      margin-top: 50px;
-      margin-right: -80px; }
-    .sectionPreparados2 .editorTexto {
-      border: solid 1px;
-      border-radius: 3px;
-      overflow: scroll;
-      width: 377px;
-      height: 301px;
-      padding: 3px;
-      margin: -31px 28px 28px -10px; } }
+
+@media (max-width: 955px) {
+  .sectionPreparados2 {
+    display: flex;
+    flex-direction: column; }
+  .modificadorImagenes {
+    width: 200px; } }
 
 .sectionPreparados3 {
   grid-area: sectionPreparados3;
@@ -350,7 +354,8 @@ header {
   margin: 15px -266px 1px -35px;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100%; }
+  width: 100%;
+  min-height: 75vh; }
   .sectionPreparados3 .editorTexto {
     border: solid 1px;
     border-radius: 3px;
@@ -359,21 +364,19 @@ header {
     height: 250px;
     padding: 5px;
     margin: 1px 10px 20px 10px; }
-  @media (max-width: 955px) {
-    .sectionPreparados3 {
-      display: flex;
-      margin: 15px -266px 1px 0px;
-      flex-direction: row;
-      justify-content: space-evenly;
-      width: 100%; }
-      .sectionPreparados3 .editorTexto {
-        border: solid 1px;
-        border-radius: 3px;
-        overflow: scroll;
-        width: 280px;
-        height: 250px;
-        padding: 3px;
-        margin: 1px 1px 20px 1px; } }
+    .sectionPreparados3 .editorTexto:hover {
+      transform: scale(1.3);
+      background-color: #82954b; }
+
+@media (max-width: 955px) {
+  .sectionPreparados3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .editorTexto {
+    width: 20px;
+    height: 20px;
+    padding: 1px; } }
 
 .sectionContacto {
   grid-area: sectionContacto;
@@ -383,7 +386,8 @@ header {
   align-items: center;
   padding: 10px;
   margin: 1px 1px 1px;
-  background-color: #dae5d0; }
+  background-color: #dae5d0;
+  min-height: 83vh; }
   .sectionContacto .primerFormulario {
     display: flex;
     margin-bottom: 20px; }
