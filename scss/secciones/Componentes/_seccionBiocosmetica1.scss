@@ -11,7 +11,7 @@
     }
     p{
       max-width: 600px;
-      @extend %estiloTexto
+      
     }
     h2{
       margin-top: 10px;
@@ -21,6 +21,7 @@
     h3{
       margin-top: 10px;
       text-decoration: underline;
+      @extend %estiloTexto
     }
     .card{
       @extend %estiloCard;

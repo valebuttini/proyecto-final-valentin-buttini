@@ -18,7 +18,7 @@
   min-width: 0;
   margin-top: 1px; }
 
-.seccionBiocosmetica1 p:hover, .seccionBiocosmetica1 h2:hover {
+.seccionBiocosmetica1 h2:hover, .seccionBiocosmetica1 h3:hover {
   background-color: #82954b;
   transform: scale(1.4); }
 
@@ -333,7 +333,7 @@ header {
   align-items: center;
   justify-content: space-around;
   padding: 20px;
-  margin: 1px 2px 2px -63px;
+  margin: 1px 2px 2px -33px;
   width: 100%; }
   .sectionPreparados2 .modificadorImagenes {
     width: 250px;
@@ -351,7 +351,7 @@ header {
 .sectionPreparados3 {
   grid-area: sectionPreparados3;
   display: flex;
-  margin: 15px -266px 1px -35px;
+  margin: 15px -266px 1px 1px;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
@@ -373,10 +373,10 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .editorTexto {
-    width: 20px;
-    height: 20px;
-    padding: 1px; } }
+    .sectionPreparados3 .editorTexto {
+      width: 270px;
+      height: 200px;
+      padding: 1px; } }
 
 .sectionContacto {
   grid-area: sectionContacto;
